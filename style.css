@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@media screen and (max-width: 800px)
+{
+  .bodyWrapper1{
+    flex-direction: column; 
+  }
+  .bodyWrapper2{
+    padding: 0px;
+    flex-direction: column;
+  }
+}
+
+.linkWrapper
+{
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #CABAC8;
+  border-top: 3px solid purple;
+  
+}
+
+.bodyWrapper1
+{
+  display: flex;
+}
+
+.imageWrapper
+{
+  flex: 1 0 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 50px 0px 75px;
+}
+
+
+.bodyWrapper2
+{
+  flex: 0 1 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px 40px 50px;
+  border-left: 2px solid #CABAC8;
+  height: 100vh;
+  
+}
+
+.top
+{
+  margin: 5px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.top:hover
+{
+  color: white;
+}
+
+.bottom
+{
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #f2f2f2f5;
+  margin: 0px 40px 0px 40px;
+}
+
+
+table {
+  width: 800px;
+  margin: 50px auto;
+  border-collapse: separate;
+  border-spacing: 0 7px;
+}
+
+progress {
+  writing-mode: horizontal-tb !important;
+  appearance: auto;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 2em;
+  width: 100%;
+  vertical-align: -0.2em;
+}
+
+
+#right-aligned-element {
+  text-align: right;
+}
+
+#bolded {
+  font-weight: 600;
+  font-size: large;
+}
+
+#padding-issue {
+  padding: 0px 0px 40px 0px; 
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway';font-size: 15px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 30px 0px 5px 0px;
+}
+
+h4 {
+  margin: 5px 0px 5px 0px;
+}
+
+h3 {
+  margin: 5px 0px 5px 0px;
+}
